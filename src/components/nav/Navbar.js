@@ -5,7 +5,8 @@ import {
   AiOutlineUserAdd,
   AiFillCustomerService,
 } from "react-icons/ai";
-import { FcBusinessman } from "react-icons/fc";
+
+
 export default function Navbar() {
   return (
     <nav>
@@ -24,9 +25,7 @@ export default function Navbar() {
       <a href="#services">
         <AiFillCustomerService />
       </a>
-      <a href="#portfolio">
-        <FcBusinessman />
-      </a>
+     
     </nav>
   );
 }
