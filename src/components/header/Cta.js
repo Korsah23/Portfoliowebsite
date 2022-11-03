@@ -1,4 +1,4 @@
-import "./header.js";
+import "./header.css";
 import CV from "./Cta";
 
 export default function Cta() {
