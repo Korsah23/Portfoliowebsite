@@ -126,6 +126,15 @@ export default function Experience() {
             <article className="experience__details">
               <AiFillCheckCircle className="experience__detailsIcon" />
               <div>
+                {" "}
+                <h4>Data Science/Ml</h4>
+                <small>Basic</small>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <AiFillCheckCircle className="experience__detailsIcon" />
+              <div>
                 <h4>SOCIAL MEDIA MARKETING</h4>
                 <small>Intermediate</small>
               </div>
