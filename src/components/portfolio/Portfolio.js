@@ -19,118 +19,113 @@ export default function Portfolio() {
           </div>
           <h3>This Is A Portfolio Item Title</h3>
           <div className="portfolio__itemcta">
-          <a href="htttps://github.com" className="btn" target="_blank">
-            GitHub
-          </a>
-          <a
-            href="https://dribbble.com/lstore_graphics"
-            className="btn btn-primary"
-            target="_blank"
-          >
-            Live Demo
-          </a>
+            <a href="htttps://github.com" className="btn" target="_blank">
+              GitHub
+            </a>
+            <a
+              href="https://dribbble.com/lstore_graphics"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
           </div>
         </article>
-        
+
         <article className="portfolio__item">
           <div className="portfolio__itemimage">
-            <img src={PortImg1} alt="" />
+            <img src={PortImg2} alt="" />
           </div>
           <h3>This Is A Portfolio Item Title</h3>
           <div className="portfolio__itemcta">
-          <a href="htttps://github.com" className="btn" target="_blank">
-            GitHub
-          </a>
-          <a
-            href="https://dribbble.com/lstore_graphics"
-            className="btn btn-primary"
-            target="_blank"
-          >
-            Live Demo
-          </a>
+            <a href="htttps://github.com" className="btn" target="_blank">
+              GitHub
+            </a>
+            <a
+              href="https://dribbble.com/lstore_graphics"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
           </div>
         </article>
 
-
-<article className="portfolio__item">
+        <article className="portfolio__item">
           <div className="portfolio__itemimage">
-            <img src={PortImg1} alt="" />
+            <img src={PortImg3} alt="" />
           </div>
           <h3>This Is A Portfolio Item Title</h3>
           <div className="portfolio__itemcta">
-          <a href="htttps://github.com" className="btn" target="_blank">
-            GitHub
-          </a>
-          <a
-            href="https://dribbble.com/lstore_graphics"
-            className="btn btn-primary"
-            target="_blank"
-          >
-            Live Demo
-          </a>
+            <a href="htttps://github.com" className="btn" target="_blank">
+              GitHub
+            </a>
+            <a
+              href="https://dribbble.com/lstore_graphics"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
           </div>
         </article>
 
-
-<article className="portfolio__item">
+        <article className="portfolio__item">
           <div className="portfolio__itemimage">
-            <img src={PortImg1} alt="" />
+            <img src={PortImg4} alt="" />
           </div>
           <h3>This Is A Portfolio Item Title</h3>
           <div className="portfolio__itemcta">
-          <a href="htttps://github.com" className="btn" target="_blank">
-            GitHub
-          </a>
-          <a
-            href="https://dribbble.com/lstore_graphics"
-            className="btn btn-primary"
-            target="_blank"
-          >
-            Live Demo
-          </a>
+            <a href="htttps://github.com" className="btn" target="_blank">
+              GitHub
+            </a>
+            <a
+              href="https://dribbble.com/lstore_graphics"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
           </div>
         </article>
 
-
-<article className="portfolio__item">
+        <article className="portfolio__item">
           <div className="portfolio__itemimage">
-            <img src={PortImg1} alt="" />
+            <img src={PortImg5} alt="" />
           </div>
           <h3>This Is A Portfolio Item Title</h3>
           <div className="portfolio__itemcta">
-          <a href="htttps://github.com" className="btn" target="_blank">
-            GitHub
-          </a>
-          <a
-            href="https://dribbble.com/lstore_graphics"
-            className="btn btn-primary"
-            target="_blank"
-          >
-            Live Demo
-          </a>
+            <a href="htttps://github.com" className="btn" target="_blank">
+              GitHub
+            </a>
+            <a
+              href="https://dribbble.com/lstore_graphics"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
           </div>
         </article>
 
-
-<article className="portfolio__item">
+        <article className="portfolio__item">
           <div className="portfolio__itemimage">
-            <img src={PortImg1} alt="" />
+            <img src={PortImg6} alt="" />
           </div>
           <h3>This Is A Portfolio Item Title</h3>
           <div className="portfolio__itemcta">
-          <a href="htttps://github.com" className="btn" target="_blank">
-            GitHub
-          </a>
-          <a
-            href="https://dribbble.com/lstore_graphics"
-            className="btn btn-primary"
-            target="_blank"
-          >
-            Live Demo
-          </a>
+            <a href="htttps://github.com" className="btn" target="_blank">
+              GitHub
+            </a>
+            <a
+              href="https://dribbble.com/lstore_graphics"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Live Demo
+            </a>
           </div>
         </article>
- 
       </div>
     </section>
   );
