@@ -4,8 +4,14 @@ import Avat2 from "./avatar2.jpg";
 import Avat3 from "./avatar3.jpg";
 import Avat4 from "./avatar4.jpg";
 
-import Swiper from "react-id-swiper";
-//import "swiper/css/swiper.css";
+// import Swiper core and required modules
+import { Pagination } from "swiper";
+
+import { Swiper, SwiperSlide } from "swiper/react/swiper-react";
+
+// Import Swiper styles
+import "swiper/swiper.min.css";
+import "swiper/modules/pagination/pagination.min.css";
 
 export default function Testimonials() {
   return (
@@ -14,14 +20,14 @@ export default function Testimonials() {
       <h2> Testimonials</h2>
 
       <Swiper
-        params={{
-          pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-          },
-        }}
+        className="container testimonials__container"
+        modules={[Pagination]}
+        spaceBetween={40}
+        slidesPerView={1}
+        navigation
+        pagination={{ clickable: true }}
       >
-        <article className="testimonial">
+        <SwiperSlide className="testimonial">
           <div className="client__avatar">
             <img src={Avat1} alt="" />
           </div>
@@ -29,8 +35,8 @@ export default function Testimonials() {
           <small className="client__review">
             Very excellent work. id love it and would come back for more.{" "}
           </small>
-        </article>
-        <article className="testimonial">
+        </SwiperSlide>
+        <SwiperSlide className="testimonial">
           <div className="client__avatar">
             <img src={Avat2} alt="" />
           </div>
@@ -39,8 +45,8 @@ export default function Testimonials() {
           <small className="client__review">
             Very excellent work. id love it and would come back for more.{" "}
           </small>
-        </article>
-        <article className="testimonial">
+        </SwiperSlide>
+        <SwiperSlide className="testimonial">
           <div className="client__avatar">
             <img src={Avat3} alt="" />
           </div>
@@ -49,8 +55,8 @@ export default function Testimonials() {
           <small className="client__review">
             Very excellent work. id love it and would come back for more.{" "}
           </small>
-        </article>
-        <article className="testimonial">
+        </SwiperSlide>
+        <SwiperSlide className="testimonial">
           <div className="client__avatar">
             <img src={Avat4} alt="" />
           </div>
@@ -59,7 +65,7 @@ export default function Testimonials() {
           <small className="client__review">
             Very excellent work. id love it and would come back for more.{" "}
           </small>
-        </article>
+        </SwiperSlide>
       </Swiper>
     </section>
   );
