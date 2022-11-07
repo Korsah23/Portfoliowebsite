@@ -15,7 +15,7 @@ import "swiper/modules/pagination/pagination.min.css";
 
 export default function Testimonials() {
   return (
-    <section>
+    <section id="testimonials">
       <h5>Review From Clients</h5>
       <h2> Testimonials</h2>
 
