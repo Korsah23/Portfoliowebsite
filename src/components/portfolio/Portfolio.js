@@ -9,7 +9,7 @@ export default function Portfolio() {
  
  //make API request with axios
  useEffect(() => {
-  axios.get("https://portfoliobackend123.herokuapp.com/testimonials/").then((res)=>{
+  axios.get("https://portfoliobackend123.herokuapp.com/portfolio/").then((res)=>{
     console.log(res.data)
     setPortfolios(res.data)
   }
