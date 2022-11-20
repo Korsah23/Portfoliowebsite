@@ -17,7 +17,7 @@ export default function Testimonials() {
  const count = 0;
  //make API request with axios
  useEffect(() => {
-  axios.get("http://127.0.0.1:8000/testimonials/").then((res)=>{
+  axios.get("https://portfoliobackend123.herokuapp.com/testimonials/").then((res)=>{
     console.log(res.data)
     setTestimony(res.data)
   }

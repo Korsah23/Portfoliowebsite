@@ -9,7 +9,7 @@ export default function Portfolio() {
  
  //make API request with axios
  useEffect(() => {
-  axios.get("http://127.0.0.1:8000/portfolio/").then((res)=>{
+  axios.get("https://portfoliobackend123.herokuapp.com/testimonials/").then((res)=>{
     console.log(res.data)
     setPortfolios(res.data)
   }
