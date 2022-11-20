@@ -15,23 +15,23 @@ export default function Services() {
           <ul className="service__list">
             <li>
               <AiOutlineCheck className="service__listicon" />
-              <p>Lorem ipsum dolor sit ame</p>
+              <p>Frontend Development</p>
             </li>
             <li>
               <AiOutlineCheck className="service__listicon" />
-              <p>Lorem ipsum dolor sit ame</p>
+              <p>Backend/Api Development</p>
             </li>
             <li>
               <AiOutlineCheck className="service__listicon" />
-              <p>Lorem ipsum dolor sit ame</p>
+              <p>Deploying/Hosting</p>
             </li>
             <li>
               <AiOutlineCheck className="service__listicon" />
-              <p>Lorem ipsum dolor sit ame</p>
+              <p>Testing</p>
             </li>
             <li>
               <AiOutlineCheck className="service__listicon" />
-              <p>Lorem ipsum dolor sit ame</p>
+              <p></p>
             </li>
           </ul>
         </article>
@@ -39,29 +39,29 @@ export default function Services() {
 
         <article className="service">
           <div className="service__head">
-            <h3>Debugging Of Code</h3>
+            <h3>WordPress Development</h3>
           </div>
 
           <ul className="service__list">
             <li>
               <AiOutlineCheck className="service__listicon" />
-              <p>Static websites</p>
+              <p>WordPress Hosting</p>
             </li>
             <li>
               <AiOutlineCheck className="service__listicon" />
-              <p>Interactive web applications</p>
+              <p>Wordpress Website Design</p>
             </li>
             <li>
               <AiOutlineCheck className="service__listicon" />
-              <p>Lorem ipsum dolor sit ame</p>
+              <p>WordPress SEO</p>
             </li>
             <li>
               <AiOutlineCheck className="service__listicon" />
-              <p>Lorem ipsum dolor sit ame</p>
+              <p>LWordPress Plugins Integration</p>
             </li>
             <li>
               <AiOutlineCheck className="service__listicon" />
-              <p>Lorem ipsum dolor sit ame</p>
+              <p>Wordpress Debugging</p>
             </li>
           </ul>
         </article>
@@ -73,23 +73,19 @@ export default function Services() {
           <ul className="service__list">
             <li>
               <AiOutlineCheck className="service__listicon" />
-              <p>Lorem ipsum dolor sit ame</p>
+              <p>Blogging</p>
             </li>
             <li>
               <AiOutlineCheck className="service__listicon" />
-              <p>Lorem ipsum dolor sit ame</p>
+              <p>CopyWriting</p>
             </li>
             <li>
               <AiOutlineCheck className="service__listicon" />
-              <p>Lorem ipsum dolor sit ame</p>
+              <p>KeyWord Research</p>
             </li>
             <li>
               <AiOutlineCheck className="service__listicon" />
-              <p>Lorem ipsum dolor sit ame</p>
-            </li>
-            <li>
-              <AiOutlineCheck className="service__listicon" />
-              <p>Lorem ipsum dolor sit ame</p>
+              <p>Seo Boosting</p>
             </li>
           </ul>
         </article>
