@@ -25,23 +25,22 @@ export default function About() {
             <article className="about__card">
               <FaUsers className="about__icon" />
               <h5>Users/Clients WorldWide</h5>
-              <small> 200+ Clients </small>
+              <small> 50+ Clients </small>
             </article>
 
             <article className="about__card">
               <FaFolderOpen className="about__icon" />
               <h5>Projects</h5>
-              <small> 20+ Completed Projects </small>
+              <small> 10+ Completed Projects </small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            Ever since gaining the interest in programming and software, it has beeen my Life purusuit since then. 
+            Although a healthscience student, my passion for computers and software developments has led me to enrolling  in a computer science program. 
+            Ever since, I've taken several courses and porgrams on software development and coding. 
+            With my extra skills in copywriting and blogging, I can promise to deliver to you your needed software development Projects. 
+            From simple static websites, web applications and other sophisticated programs. 
+            Bring your ideas,let me think about the development and deployment of it for you. 
           </p>
           <a href="#contact" className="btn btn-primary">
             Lets Talk

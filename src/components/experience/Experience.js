@@ -75,7 +75,16 @@ export default function Experience() {
             <article className="experience__details">
               <AiFillCheckCircle className="experience__detailsIcon" />
               <div>
-                <h4>SQL LITE</h4>
+                <h4>PostGress</h4>
+                <small>Intermediate</small>
+              </div>
+            </article>
+
+
+            <article className="experience__details">
+              <AiFillCheckCircle className="experience__detailsIcon" />
+              <div>
+                <h4>SQLLITE</h4>
                 <small>Intermediate</small>
               </div>
             </article>
@@ -117,8 +126,16 @@ export default function Experience() {
             <article className="experience__details">
               <AiFillCheckCircle className="experience__detailsIcon" />
               <div>
-                {" "}
+              
                 <h4>SEO</h4>
+                <small>Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <AiFillCheckCircle className="experience__detailsIcon" />
+              <div>
+                
+                <h4>WordPress</h4>
                 <small>Intermediate</small>
               </div>
             </article>
@@ -126,7 +143,7 @@ export default function Experience() {
             <article className="experience__details">
               <AiFillCheckCircle className="experience__detailsIcon" />
               <div>
-                {" "}
+              
                 <h4>Data Science/Ml</h4>
                 <small>Basic</small>
               </div>

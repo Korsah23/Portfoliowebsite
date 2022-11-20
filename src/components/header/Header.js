@@ -12,7 +12,6 @@ export default function Header() {
           <h1>Korsah Solomon</h1>
 
           <h5 className="text-light">FullStack Developer</h5>
-          <Cta />
           <HeaderSocials />
           <div className="me">
             <img src={MeImg} alt="me" />

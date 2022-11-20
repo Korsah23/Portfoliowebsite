@@ -2,7 +2,7 @@ import "./contact.css";
 import {
   AiOutlineMail,
   AiOutlineWhatsApp,
-  AiOutlineFacebook,
+  AiFillLinkedin,
   AiFillTwitterCircle,
 } from "react-icons/ai";
 
@@ -34,14 +34,14 @@ export default function Contact() {
             <AiOutlineMail className="contact__optionicon" />
             <h4>Email</h4>
             <h5>korsah.solomon31@gmail.com</h5>
-            <a href="mailto:youremail@gmail.com">Send Me A Message</a>
+            <a href="mailto:korsahsolomon78@gmail.com">Send Me A Message</a>
           </article>
 
           <article className="contact__option">
-            <AiOutlineFacebook className="contact__optionicon" />
-            <h4>Messenger</h4>
+            <AiFillLinkedin className="contact__optionicon" />
+            <h4>linkedin</h4>
             <h5>Korsah Solomon</h5>
-            <a href="https://m.me/korsahsolomon" target="_blank">
+            <a href="https://www.linkedin.com/in/solomon-korsah-0716421b6" target="_blank">
               Send Me A Message
             </a>
           </article>
@@ -50,7 +50,7 @@ export default function Contact() {
             <AiFillTwitterCircle className="contact__optionicon" />
             <h4>Twitter</h4>
             <h5>@Korsah</h5>
-            <a href="https://twitter.com/korsahsolo" target="_blank">
+            <a href="https://mobile.twitter.com/korsahsolomun" target="_blank">
               Send Me A Message
             </a>
           </article>
@@ -58,9 +58,9 @@ export default function Contact() {
           <article className="contact__option">
             <AiOutlineWhatsApp className="contact__optionicon" />
             <h4>Whatsapp</h4>
-            <h5>+233501961257</h5>
+            <h5>+233592537928</h5>
             <a
-              href="https://api.whatsapp.com/send?phone=233501961257"
+              href="https://api.whatsapp.com/send?phone=233592537928"
               target="_blank"
             >
               Send Me A Message
