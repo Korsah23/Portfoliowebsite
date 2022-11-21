@@ -11,7 +11,7 @@ export default function Portfolio() {
  useEffect(() => {
   axios.get("https://portfoliobackend123.herokuapp.com/portfolio/",{
     headers : {
-      'Authorization': `token ${b97873599f2afdd1cb4af80bafe884151b67df4a}`
+      'Authorization': `Token ${b97873599f2afdd1cb4af80bafe884151b67df4a}`
     }
   }).then((res)=>{
     console.log(res.data)
