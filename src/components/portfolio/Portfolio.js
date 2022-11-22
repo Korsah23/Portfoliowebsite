@@ -1,5 +1,5 @@
 import "./portfolio.css";
-import PortImg1 from "./PortImg1.jpg" ;
+import PortImg1 from "./PortImg1.jpg";
 import PortImg2 from "./PortImg2.png";
 
 
