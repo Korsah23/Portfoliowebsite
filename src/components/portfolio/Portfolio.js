@@ -1,46 +1,28 @@
 import "./portfolio.css";
+import PortImg1 from "./PortImg1.jpg";
+import PortImg2 from "./PortImg2.png";
 
-import axios from "axios";
-import React, {useState,useEffect} from "react";
 
 export default function Portfolio() {
      //set the state for getting testimonials 
- const [portfolios,setPortfolios] = useState([]);
  
- //make API request with axios
- useEffect(() => {
-  axios.get("http://127.0.0.1:8000/portfolio/").then((res)=>{
-    console.log(res.data)
-    setPortfolios(res.data)
-  }
-  
-  )
- }
- 
- ,[])
-  
-
-
   return (
     <section id="portfolio">
       <h5>Recent Work</h5>
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
-  {
-        portfolios.map((portfolio)=> {
-          return (
-            <article className="portfolio__item" key={portfolio.project}>
+      <article className="portfolio__item">
             <div className="portfolio__itemimage">
-              <img src={portfolio.portfolioImage} alt="" />
+              <img src={PortImg2} alt="" />
             </div>
-            <h3>{portfolio.project}</h3>
+            <h3>Portfolio Website(React/Django/)</h3>
             <div className="portfolio__itemcta">
-              <a href={portfolio.githubLink} className="btn" target="_blank">
+              <a href="https://github.com/Korsah23/Portfoliowebsite" className="btn" target="_blank">
                 GitHub
               </a>
               <a
-                href={portfolio.liveDemoLink}
+                href="#"
                 className="btn btn-primary"
                 target="_blank"
               >
@@ -48,13 +30,26 @@ export default function Portfolio() {
               </a>
             </div>
           </article>
-          )
 
-        }
-        
-        
-        )
-      }
+          <article className="portfolio__item">
+            <div className="portfolio__itemimage">
+              <img src={PortImg1} alt="" />
+            </div>
+            <h3>Weather Detector(Django/Html/Css)</h3>
+            <div className="portfolio__itemcta">
+              <a href="https://github.com/Korsah23/weatherdetector" className="btn" target="_blank">
+                GitHub
+              </a>
+              <a
+                href="#"
+                className="btn btn-primary"
+                target="_blank"
+              >
+                Live Demo
+              </a>
+            </div>
+          </article>
+
         
 
 
