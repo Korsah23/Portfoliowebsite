@@ -17,7 +17,11 @@ export default function Testimonials() {
  const count = 0;
  //make API request with axios
  useEffect(() => {
-  axios.get("https://portfoliobackend123.herokuapp.com/testimonials/").then((res)=>{
+  axios.get("https://portfoliobackend123.herokuapp.com/testimonials/",{
+    headers : {
+      'Authorization': 'Token b97873599f2afdd1cb4af80bafe884151b67df4a'
+    }
+  }).then((res)=>{
     console.log(res.data)
     setTestimony(res.data)
   }
