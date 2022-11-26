@@ -1,7 +1,7 @@
 import "./portfolio.css";
 import PortImg1 from "./PortImg1.jpg";
 import PortImg2 from "./PortImg2.png";
-import urlshortener from "./urlshortener.jpg";
+import PortImg3 from "./UrlShort.jpg";
 
 
 export default function Portfolio() {
@@ -53,7 +53,7 @@ export default function Portfolio() {
 
           <article className="portfolio__item">
             <div className="portfolio__itemimage">
-              <img src={urlshortener} alt="" />
+              <img src={PortImg3} alt="" />
             </div>
             <h3>Url Shortener(Django/Html/Css/Bootstrap)</h3>
             <div className="portfolio__itemcta">
