@@ -17,7 +17,7 @@ export default function Portfolio() {
             <div className="portfolio__itemimage">
               <img src={PortImg2} alt="" />
             </div>
-            <h3>Portfolio Website(React/Django/)</h3>
+            <h3>Portfolio Website(React/Django/css)</h3>
             <div className="portfolio__itemcta">
               <a href="https://github.com/Korsah23/Portfoliowebsite" className="btn" target="_blank">
                 GitHub
