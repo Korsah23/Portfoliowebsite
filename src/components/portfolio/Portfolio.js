@@ -1,6 +1,7 @@
 import "./portfolio.css";
 import PortImg1 from "./PortImg1.jpg";
 import PortImg2 from "./PortImg2.png";
+import urlshortener from "./urlshortener.jpg";
 
 
 export default function Portfolio() {
@@ -38,6 +39,25 @@ export default function Portfolio() {
             <h3>Weather Detector(Django/Html/Css)</h3>
             <div className="portfolio__itemcta">
               <a href="https://github.com/Korsah23/weatherdetector" className="btn" target="_blank">
+                GitHub
+              </a>
+              <a
+                href="#"
+                className="btn btn-primary"
+                target="_blank"
+              >
+                Live Demo
+              </a>
+            </div>
+          </article>
+
+          <article className="portfolio__item">
+            <div className="portfolio__itemimage">
+              <img src={urlshortener} alt="" />
+            </div>
+            <h3>Url Shortener(Django/Html/Css/Bootstrap)</h3>
+            <div className="portfolio__itemcta">
+              <a href="https://github.com/Korsah23/urlshortenerproject" className="btn" target="_blank">
                 GitHub
               </a>
               <a
