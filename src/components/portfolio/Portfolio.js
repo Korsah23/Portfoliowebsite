@@ -36,7 +36,7 @@ export default function Portfolio() {
             <div className="portfolio__itemimage">
               <img src={PortImg1} alt="" />
             </div>
-            <h3>Weather Detector(Django/Html/Css)</h3>
+            <h3>Weather Detector(Django/Html/Css/Bootstrap)</h3>
             <div className="portfolio__itemcta">
               <a href="https://github.com/Korsah23/weatherdetector" className="btn" target="_blank">
                 GitHub
