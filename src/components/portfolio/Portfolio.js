@@ -5,6 +5,7 @@ import PortImg3 from "./UrlShort.jpg";
 import notes from "./notes.jpeg";
 import jodel from "./jodel.jpeg";
 import report from "./reportgen.jpeg";
+import articlewriter from "./articlewriter.jpg";
 
 
 export default function Portfolio() {
@@ -131,6 +132,25 @@ export default function Portfolio() {
             </div>
           </article>
 
+
+          <article className="portfolio__item">
+            <div className="portfolio__itemimage">
+              <img src={articlewriter} alt="" />
+            </div>
+            <h3>ArticleWriter(Flask/Html/css)</h3>
+            <div className="portfolio__itemcta">
+              <a href="https://github.com/Korsah23/articlegenerator" className="btn" target="_blank">
+                GitHub
+              </a>
+              <a
+                href="https://korsah18.pythonanywhere.com/"
+                className="btn btn-primary"
+                target="_blank"
+              >
+                Live Demo
+              </a>
+            </div>
+          </article>
 
         
 
